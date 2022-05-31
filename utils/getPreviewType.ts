@@ -59,22 +59,22 @@ export const extensions = {
   log: preview.text,
   diff: preview.text,
 
-  mp4: preview.video,
+  //mp4: preview.video,
   flv: preview.video,
   webm: preview.video,
   m3u8: preview.video,
-  mkv: preview.video,
+  //mkv: preview.video,
   mov: preview.video,
   avi: preview.video, // won't work!
 
-  mp3: preview.audio,
-  m4a: preview.audio,
+  //mp3: preview.audio,
+  //m4a: preview.audio,
   aac: preview.audio,
   wav: preview.audio,
   ogg: preview.audio,
   oga: preview.audio,
   opus: preview.audio,
-  flac: preview.audio,
+  //flac: preview.audio,
 
   epub: preview.epub,
 
