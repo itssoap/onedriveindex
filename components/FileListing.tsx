@@ -54,11 +54,11 @@ const EPUBPreview = dynamic(() => import('./previews/EPUBPreview'), {
 const queryToPath = (query?: ParsedUrlQuery) => {
   if (query) {
     const { path } = query
-    if (!path) return '/'
+    if (!path) return '/Test' // sending '/' requests to '/Test' as '/' is blank anyways
     if (typeof path === 'string') return `/${encodeURIComponent(path)}`
     return `/${path.map(p => encodeURIComponent(p)).join('/')}`
   }
-  return '/'
+  return '/Test'
 }
 
 // Render the icon of a folder child (may be a file or a folder), use emoji if the name of the child contains emoji
