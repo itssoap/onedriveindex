@@ -10,7 +10,7 @@
     "format": "prettier 'components/**/*.tsx' 'config/*.js' 'pages/**/*.{ts,tsx}' '{types,utils}/**/*.ts' --write",
     "extract": "i18next"
   },
-  
+    
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
